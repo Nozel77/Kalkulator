@@ -8,6 +8,14 @@
     tools:context=".SplashScreen"
     android:id="@+id/Splash_Screen">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="160dp"
+        android:text="Calculator"/>
+
+
     <ImageView
         android:layout_width="160dp"
         android:layout_height="160dp"
