@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textSize="12pt"
+        android:textColor="#2269B5"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kalkulator" />
+
+
+    <EditText
+        android:id="@+id/editNilaiA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Angka 1"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editNilaiB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Angka 2"
+        android:minHeight="48dp" />
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#89C4E1"
+        android:hint="+"
+        android:textColor="@color/black"
+        android:id="@+id/btnTambah"
+        android:textSize="9pt" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#89C4E1"
+        android:hint="-"
+        android:textColor="@color/black"
+        android:id="@+id/btnKurang"
+        android:layout_marginLeft="10dp"
+        android:textSize="9pt" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#89C4E1"
+        android:hint="*"
+        android:textColor="@color/black"
+        android:id="@+id/btnKali"
+        android:textSize="9pt" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#89C4E1"
+        android:hint="÷"
+        android:textColor="@color/black"
+        android:id="@+id/btnBagi"
+        android:layout_marginLeft="10dp"
+        android:textSize="9pt" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HASIL"
+        android:id="@+id/txtHasil"/>
+
+</LinearLayout>
+
+
